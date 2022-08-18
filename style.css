@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+div.container{
+    background-color: black;
+}
+div.container div.navbar{
+    background-color: black;
+    padding-top: 40px;
+    margin-left: 100px  ;
+    margin-right: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+div.container div.navbar div.nav-logo-div img{
+    height: 50px;
+    width: 140px;
+}
+div.container div.nav-section{
+    width: 50%;
+}
+div.container div.nav-section div.nav-wrapper ul.list-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+div.container div.nav-section div.nav-wrapper ul.list-parent li.list::marker{
+    color: transparent;
+}
+div.container div.nav-section div.nav-wrapper ul.list-parent li.list a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+div.container div.nav-section div.nav-wrapper ul.list-parent li.list a:hover {
+    text-decoration: none;
+    color: #ee4e4e;
+    font-weight: 900;
+}
+#select-list-item1{
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    
+}
+#select-list-item1:hover{
+    border: none;
+    font-size: 16px;
+    color: #ee4e4e;
+    font-weight: 900;  
+    background-color: black;
+}
+#select-list-item5{
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: black;  
+}
+#select-list-item5:hover{
+    border: none;
+    font-size: 16px;
+    color: #ee4e4e;
+    font-weight: 900; 
+    background-color: black; 
+}
+#select-list-item5{
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+#select-list-item5:hover{
+    border: none;
+    font-size: 16px;
+    color: #ee4e4e;
+    font-weight: 900; 
+}
+div.container div.profile{
+    margin-left: 100px  ;
+    margin-right: 300px;
+}
+div.container div.profile{
+    display: flex;
+    justify-content: space-between;
+}
+div.container div.profile div.profile-img img{
+    height: 700px;
+    width: 650px;
+}
+div.container div.profile div.candidate-details div.candidate-details-wrapper div.name{
+    position: relative;
+    top: 160px; 
+}
+div.container div.profile div.candidate-details div.candidate-details-wrapper div.name p{
+    font-size: 20px;
+    color: #D82E2F;
+}
+div.container div.profile div.candidate-details div.candidate-details-wrapper div.profession{
+    position: relative;
+    top: 170px;  
+}
+div.container div.profile div.candidate-details div.candidate-details-wrapper div.profession h1{
+    font-size: 60px;
+    line-height: 70px;
+    color: white; 
+}
+div.container div.profile div.candidate-details div.candidate-details-wrapper div.description{
+    position: relative;
+    top: 180px;
+}
+div.container div.profile div.candidate-details div.candidate-details-wrapper div.description p{
+    font-size: 20px;
+    color: white;
+}
+div.container div.profile div.candidate-details div.candidate-details-wrapper div.about-me{
+    position: relative;
+    top: 220px;   
+}
+div.container div.profile div.candidate-details div.candidate-details-wrapper div.about-me button{
+    padding: 20px 55px;
+    background-color: #D82E2F;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+/* 
+ BIO SECTION 
+ */
+div.bio-section{
+    position: relative;
+    height: 900px;
+}
+div.bio-section div.zindex-1-div{
+    width: 900px;
+    height: 850px;
+    display: inline-block;
+    background-color: #131313;
+    z-index: 1;
+}
+
+
+div.bio-section div.bio-section-grid-wrapper{
+    height: 650px;
+    width: 1200px;
+    position: absolute;
+    right: 200px;
+    top: 100px;
+    z-index: 2;
+}
+
+
+div.bio-section div.bio-section-grid-wrapper div.grid-skill-wrapper{
+    height: 340px;
+    display: inline-grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-column-gap: 20px;
+}
+div.bio-section div.bio-section-grid-wrapper div.grid-skill-wrapper div.grid-skill-item{
+    background-color: #1b1c1d;
+    padding: 40px;
+    height: 340px;
+}
+div.bio-section div.bio-section-grid-wrapper div.skill-content{
+    padding-top: 25px;
+}
+div.bio-section div.bio-section-grid-wrapper div.skill-content h3{
+    font-size: 25px;
+    color: white;
+} 
+div.bio-section div.bio-section-grid-wrapper div.skill-content div.skill-content-mid p{ 
+    color: white;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+div.bio-section div.bio-section-grid-wrapper div.skill-content a{
+    color: #D82E2F;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#skill-grid2-a{
+    color: white;
+}
+#grid-skill-item2{
+    background-color: #D82E2F;
+}
+/* EXPERIENCE */
+div.bio-section div.bio-section-grid-wrapper div.grid-experience-wrapper{
+    margin-top: 100px;
+    width: 1100px;
+    display: grid;
+    grid-column-gap: 5px;
+    row-gap: 5px;
+    grid-template-areas: 
+    'grid1 grid2 grid3'
+    'grid1 grid4 grid5'
+    ;
+}
+div.bio-section div.bio-section-grid-wrapper div.grid-experience-wrapper div.grid-experience-item{
+    width: 350px;
+    height: 100px;
+    padding: 15px;
+}
+#\#experience-grid1{
+    grid-area: grid1;
+    height: 200px;
+}
+#\#experience-grid2{
+    background-color: #1b1c1d;
+    grid-area: grid2;
+}
+#\#experience-grid3{
+    grid-area: grid3;
+    background-color: #1b1c1d;
+}
+#\#experience-grid4{
+    grid-area: grid4;
+    background-color: #1b1c1d;
+}
+#\#experience-grid5{
+    background-color: #1b1c1d;
+}
+div.bio-section div.bio-section-grid-wrapper div.grid-experience-wrapper div.grid-experience-item div.experice-year h2{
+    font-size: 30px;
+    text-align: center;
+    color: #f23b3b;
+}
+div.bio-section div.bio-section-grid-wrapper div.grid-experience-wrapper div.grid-experience-item div.experince-text p{
+    text-align: center;
+    color: white;
+}
+#\#experience-grid1 h2{
+    font-size: 80px;
+    font-weight: 900;
+    color: #D82E2F;
+}
+#\#experience-grid1 p{
+    font-size: 25px;
+    font-weight: 700; 
+}
+
+
+.project-section{
+    background-color: black;
+}
+/* project heading */
+.project-section .project-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    background-color: black;
+}
+.project-section .project-heading .project-heading-div1 h3{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+.project-section .project-heading .project-heading-div1 p{
+    margin-top: -25px;
+    font-size: 18px;
+    color: white;
+}
+.project-section .project-heading .project-heading-div2 button{
+    padding: 15px 65px;
+    background-color: #D82E2F;
+    border: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 900px;
+}
+/* projects-container */
+.project-container{
+    width: 100%;
+    background-color: black;
+    display: inline-grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 520px 520px ;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.project-item{
+    background-color: black;
+    height: 520px;
+    width: 450px;
+}
+.project-item .img-div{
+    height: 450px;
+    width: 450px;
+    padding: 70px 25px;
+    background-color: #1b1c1d;
+}
+.project-item img{
+    height: 310px;
+    width: 400px;
+}
+.project-item h2{
+   color: white;
+}
+.project-item a{
+    text-decoration: none;
+    color: #f23b3b;
+}
+
+.next-project-section{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+.next-project-section-content{
+    margin: 50px 300px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b1c1d;
+    padding: 25px 20px;
+}
+.next-project-section-content-heading{
+    width: 60%;
+    padding: 40px 45px;
+}
+.next-project-section-content-heading h3{
+    font-size: 45px;
+    color: white;
+}
+.next-project-section-content-heading p{
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+}
+.next-project-section-content-button button {
+    font-size: 18px;
+    padding: 15px 45px;
+    position: relative;
+    right: 150px;
+    top: 120px;
+    background-color: #f23b3b;
+    color: white;
+    border: none;
+}
+.down-links{
+    height: 50px;
+    width: 450px;
+    margin: 100px 600px 30px;
+}
+.down-links-list li::marker{
+    list-style: none;
+    color: transparent;
+}
+.down-links-list{
+    display: flex;
+    justify-content: space-between;
+}
+.down-links-list li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.down-links-list li a:hover{
+    text-decoration: none;
+    color: #ee4e4e;
+    cursor: pointer;
+}
+
+
+/* FOOTER */
+.footer{
+    background-color: #1b1c1d;
+    margin-top: 50px;
+    padding: 50px 0;
+}
+.footer-wrapper{
+    height: 50px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 290px;
+}
+.footer-logo img{
+    height: 30px;
+    width: 90px;
+    margin-top: 5px;
+}
+.footer-icons ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-icons ul li{
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: rgb(233, 213, 213);
+    justify-content: space-between;
+    
+}
+.footer-icons ul li::marker{
+    list-style: none;
+    color: transparent;
+}
